@@ -83,6 +83,10 @@ if ( $wmgUseTabsCombination ) {
 	require_once( "$IP/extensions/Tabs/Tabs.php" );
 }
 
+if ( $wmgUseTemplateSandbox ) {
+	wfLoadExtension( 'TemplateSandbox' );
+}
+
 if ( $wmgUseTranslate ) {
 	require_once( "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php" );
 	require_once( "$IP/extensions/Translate/Translate.php" );
