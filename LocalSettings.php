@@ -264,8 +264,8 @@ $wgConf->settings = array(
 	'wmgUseImageMap' => array(
 		'default' => false,
 		'allthetropeswiki' => true,
-		'extloadwiki' => true,
 		'creersonarbrewiki' => true,
+		'extloadwiki' => true,
 	),
 	'wmgUseInputBox' => array(
 		'default' => true,
@@ -321,6 +321,11 @@ $wgConf->settings = array(
 		'extloadwiki' => false,
 	),
 	'wmgUseTabsCombination' => array(
+		'default' => false,
+		'allthetropeswiki' => true,
+		'extloadwiki' => true,
+	),
+	'wmgUseTemplateSandbox' => array(
 		'default' => false,
 		'allthetropeswiki' => true,
 		'extloadwiki' => true,
